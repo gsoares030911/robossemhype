@@ -34,3 +34,14 @@ ul { padding-left: 22px; }
 .rodape { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--borda); color: var(--suave); font-size: 14px; }
 .rodape a { color: var(--suave); }
 .atualizado { color: var(--suave); font-size: 14px; }
+/* Ícone do YouTube (botão de play), usado para indicar o canal e o uso dos Serviços de API do YouTube */
+.yt-icone {
+  display: inline-block; width: 26px; height: 18px; border-radius: 5px; background: #ff0000;
+  position: relative; vertical-align: -2px; margin-right: 4px;
+}
+.yt-icone::after {
+  content: ""; position: absolute; left: 10px; top: 4px;
+  border-style: solid; border-width: 5px 0 5px 8px; border-color: transparent transparent transparent #fff;
+}
+.ferramenta { border-color: #ff000055; }
+.links-legais { font-size: 15px; }
